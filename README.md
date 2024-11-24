@@ -63,3 +63,7 @@ npx expo install react-native-qrcode-svg react-native-svg expo-font @expo-google
 
 - node -> v20.15.0
 - npm -> 10.7.0
+
+## Screenshots
+
+<img src="https://raw.githubusercontent.com/alxac/boardingpass/refs/heads/master/assets/tela1.jpeg" alt="drawing" style="width:400px;"/>
