@@ -1,27 +1,14 @@
-import {
-  useFonts,
-  Poppins_700Bold,
-  Poppins_500Medium,
-  Poppins_400Regular,
-  Poppins_800ExtraBold
-} from "@expo-google-fonts/poppins"
-
-import Home from '@/app/home';
+import BoardingPass from '@/app/home';
 import { StatusBar } from "expo-status-bar";
+import useCustomFonts from "@/styles/useFonts";
 
 export default function App() {
-  const [fontsLoaded] = useFonts({
-    Poppins_700Bold,
-    Poppins_500Medium,
-    Poppins_400Regular,
-    Poppins_800ExtraBold
-  })
-
+  const fontsLoaded = useCustomFonts();
   if (!fontsLoaded) return null
 
   return (<>
     <StatusBar style="light" backgroundColor="transparent" translucent />
-    <Home />
+    <BoardingPass />
   </>);
 }
 

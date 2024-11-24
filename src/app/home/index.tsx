@@ -5,10 +5,10 @@ import { Ionicons } from "@expo/vector-icons"
 import { colors } from '@/styles/colors';
 import { Info } from '@/components/info/Info';
 import QRCode from 'react-native-qrcode-svg';
-import Svg, { Circle, Line } from 'react-native-svg';
 import { LinearGradient } from 'expo-linear-gradient';
+import LineSvg from '@/components/LineSvg';
 
-export default function Home() {
+export default function BoardingPass() {
   return (
     <View style={styles.container}>
       <ImageBackground
@@ -42,21 +42,7 @@ export default function Home() {
           </View>
         </View>
 
-        <View>
-          <Svg height={20} width="100%">
-            <Line
-              x1="0%"
-              y1="50%"
-              x2="100%"
-              y2="50%"
-              stroke={colors.black}
-              strokeWidth={1}
-              strokeDasharray="5,5"
-            />
-            <Circle r={8} cx="0%" cy="50%" fill={colors.black} />
-            <Circle r={8} cx="100%" cy="50%" fill={colors.black} />
-          </Svg>
-        </View>
+        <LineSvg />
 
         <View style={styles.footer}>
           <View style={styles.footerContent}>
