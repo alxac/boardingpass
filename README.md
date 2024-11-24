@@ -1,6 +1,7 @@
-# Bem vindo a um projeto Expo app 👋
+# Bem vindo ao projeto Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um projeto criado com [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Mais informações em [Expo](https://expo.dev).
 
 ## Get started
 
@@ -54,6 +55,26 @@ Join our community of developers creating universal apps.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
 
-## Join the community
+## Fontes
 Aula que foi retirado esses códigos:
 - [Aula](https://www.youtube.com/watch?v=yBnZsWGtaqs) : Acessar youtube
+
+## Pacotes
+
+```bash
+npx expo install react-native-qrcode-svg
+```
+
+```bash
+npx expo install react-native-svg
+```
+
+```bash
+npx expo install expo-font @expo-google-fonts/poppins
+```
+
+Todos os pacotes
+
+```bash
+npx expo install react-native-qrcode-svg react-native-svg expo-font @expo-google-fonts/poppins
+```
