@@ -1,11 +1,11 @@
-# Bem vindo ao projeto Expo app 👋
+# Bem vindo ao projeto exemplo BoardingPass app 👋
 
 Este é um projeto criado com [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 Mais informações em [Expo](https://expo.dev).
 
-## Get started
+## Iniciando
 
-1. Install dependencies
+1. Instalar dependências
 
    ```bash
    npm install
@@ -15,7 +15,7 @@ Mais informações em [Expo](https://expo.dev).
    npm i
    ```
 
-2. Start the app
+2. Executar o aplicativo
 
    ```bash
     npx expo start
@@ -31,7 +31,7 @@ npm run reset-project
 
 Este comando apaga alguns códigos exemplo.
 
-## Fontes
+## Referências
 Aula que foi retirado esses códigos:
 - [Aula](https://www.youtube.com/watch?v=yBnZsWGtaqs) : Acessar youtube
 
@@ -49,10 +49,14 @@ npx expo install react-native-svg
 npx expo install expo-font @expo-google-fonts/poppins
 ```
 
+```bash
+npx expo install expo-linear-gradient
+```
+
 Todos os pacotes
 
 ```bash
-npx expo install react-native-qrcode-svg react-native-svg expo-font @expo-google-fonts/poppins
+npx expo install react-native-qrcode-svg react-native-svg expo-font @expo-google-fonts/poppins expo-linear-gradient
 ```
 
 ## Versões

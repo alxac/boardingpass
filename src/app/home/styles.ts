@@ -77,5 +77,10 @@ export const styles = StyleSheet.create({
     footerContent: {
         flex: 1,
         gap: 24,
-    }
+    },
+    gradient: {
+        ...StyleSheet.absoluteFillObject,
+        height: "100%",
+        width: "100%",
+    },
 });

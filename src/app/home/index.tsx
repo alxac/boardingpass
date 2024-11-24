@@ -6,6 +6,7 @@ import { colors } from '@/styles/colors';
 import { Info } from '@/components/info/Info';
 import QRCode from 'react-native-qrcode-svg';
 import Svg, { Circle, Line } from 'react-native-svg';
+import { LinearGradient } from 'expo-linear-gradient';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ImageBackground
         style={styles.header}
         source={require("@/assets/cover.jpeg")}>
+        <LinearGradient colors={["rgba(0,0,0,0.3)", "rgba(0,0,0,0.8)"]} style={styles.gradient} />
         <Text style={styles.title}>Cartão de embarque</Text>
         <Text style={styles.subtitle}>Falta 45 dias para sua viagem</Text>
       </ImageBackground>
